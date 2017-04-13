@@ -11,4 +11,3 @@ RUN cf install-plugin -f ibm-containers-linux_x64
 ENV CF_API="https://api.eu-gb.bluemix.net"
 
 RUN cf api $CF_API
-CMD cf login
